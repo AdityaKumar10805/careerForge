@@ -4,12 +4,20 @@ const authRoutes = require("./routes/authRoutes");
 const resumeRoutes = require("./routes/resumeRoutes");
 const aiRoutes = require("./routes/aiRoutes");
 const app = express();
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://career-forge-fsam.vercel.app",
+]
+
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://career-forge-fsam-9hdt0oc5p-single9.vercel.app",
-    ],
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
   })
 );
