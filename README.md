@@ -15,13 +15,13 @@
 ## 📸 Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Profile](screenshots/profile.png)
 
 ### Login Page
-![Login](screenshots/login.png)
+![resumeCard](screenshots/resumeCard.png)
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
 ### Resume Builder
-![Resume](screenshots/resume.png)
+![resumePreview](screenshots/resumePreview.png)
