@@ -25,3 +25,6 @@
 
 ### Resume Preview page
 ![Resume Builder](screenshots/resumePreview.png)
+
+### resumeBuilder page
+![Resume Builder](screenshots/resumeBuilder.png)
