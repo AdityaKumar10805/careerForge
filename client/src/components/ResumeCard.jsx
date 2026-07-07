@@ -31,10 +31,7 @@ function ResumeCard({ resume, onDelete, onEdit }) {
           <span className="font-semibold">{resume.projects.length}</span>
         </p>
 
-        <p>
-          Experience :{" "}
-          <span className="font-semibold">{resume.experience.length}</span>
-        </p>
+
       </div>
 
       {/* Created Date */}
