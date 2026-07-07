@@ -14,14 +14,14 @@
 
 ## 📸 Screenshots
 
-### Home Page
+### Profile Page
 ![Home Page](screenshots/profile.png)
 
-### Login Page
+### resumeCard Page
 ![Login Page](screenshots/resumeCard.png)
 
-### Dashboard
+### Dashboard page
 ![Dashboard](screenshots/dashboard.png)
 
-### Resume Builder
+### Resume Preview page
 ![Resume Builder](screenshots/resumePreview.png)
